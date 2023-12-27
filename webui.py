@@ -77,7 +77,7 @@ def webui():
                 auto_launch_browser = not cmd_opts.webui_is_non_local
 
         app, local_url, share_url = shared.demo.launch(
-            share=cmd_opts.share,
+            share=True,  # Set this parameter to True to make the interface publicly accessible
             server_name=initialize_util.gradio_server_name(),
             server_port=cmd_opts.port,
             ssl_keyfile=cmd_opts.tls_keyfile,
@@ -94,6 +94,7 @@ def webui():
             },
             root_path=f"/{cmd_opts.subpath}" if cmd_opts.subpath else "",
         )
+
 
         startup_timer.record("gradio launch")
 
