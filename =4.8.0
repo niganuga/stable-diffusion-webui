@@ -1,8 +1,10 @@
-Requirement already satisfied: opencv-python in ./venv/lib/python3.10/site-packages (4.7.0.72)
+Requirement already satisfied: opencv-python in /opt/homebrew/lib/python3.10/site-packages (4.7.0.72)
 Collecting opencv-python
-  Using cached opencv_python-4.9.0.80-cp37-abi3-macosx_11_0_arm64.whl.metadata (20 kB)
-Requirement already satisfied: numpy>=1.21.2 in ./venv/lib/python3.10/site-packages (from opencv-python) (1.23.5)
-Using cached opencv_python-4.9.0.80-cp37-abi3-macosx_11_0_arm64.whl (35.4 MB)
+  Downloading opencv_python-4.9.0.80-cp37-abi3-macosx_11_0_arm64.whl.metadata (20 kB)
+Requirement already satisfied: numpy>=1.21.2 in /opt/homebrew/lib/python3.10/site-packages (from opencv-python) (1.23.5)
+Downloading opencv_python-4.9.0.80-cp37-abi3-macosx_11_0_arm64.whl (35.4 MB)
+   ━━━━━━━ 35.4/3… 2.7     eta 0:00:00
+           MB      MB/s               
 Installing collected packages: opencv-python
   Attempting uninstall: opencv-python
     Found existing installation: opencv-python 4.7.0.72
